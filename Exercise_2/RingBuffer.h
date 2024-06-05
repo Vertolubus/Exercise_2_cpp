@@ -12,12 +12,6 @@ private:
 public:
 	RingBuffer();
 	RingBuffer(int size);
-	//RingBuffer(const RingBuffer& rb);
-	//RingBuffer(RingBuffer&& rb);
-	//RingBuffer& operator=(const RingBuffer& rb); 
-	//RingBuffer& operator=(RingBuffer&& rb); 
-	//int& operator[](int i); 
-	//const int& operator[](int i) const;
 	~RingBuffer();
 
 	bool isEmpty() const; // true, если очередь пуста
